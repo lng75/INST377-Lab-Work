@@ -1,40 +1,87 @@
-YOUR NAME Lab 2: Intro to HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lucas Ng Lab 2: CSS Selectors
+        </title>
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
+    <body>
+        <h1 class="title wrapper default section_4">Lucas Ng Lab 2: CSS Selectors</h1>
 
-Selectors
-Main Page
+        <div class="wrapper subtitle default">
+            <nav>
+                <a href="selectors.html">Selectors</a>
+                <a href="index.html">Main Page</a>
+            </nav>
+        </div>
 
-First, the basics.
+        <h2 class="wrapper subtitle default">First, the basics.</h2>
 
-You need the following to build your website.
+        <p class="wrapper subtitle default">You need the following to build your website.</p>
 
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
+        <div class="wrapper section_1 subtitle">
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>And other web development frameworks</li>
+            </ul>
 
-You should list your top 3 goals for the class below.
+            <div class="section_4">
+                <div class="text">
+                    <p>You should list your top 5 favorite albums below.</p>
 
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
+                    <ol>
+                        <li>Metrowing - Alice</li>
+                        <li>Foreground Eclipse - Wishes Hidden in the Foreground Noise</li>
+                        <li>goreshit - semantics: the benzo chronicles</li>
+                        <li>goreshit - semantic compositions on death and its meaning</li>
+                        <li>potsu - just friends</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
 
-Let's Try Some Inline Elements
+        <div class="section_2 wrapper">
+            
+                <h2 class="subtitle">Let's Try Some Inline Elements</h2>
 
-Sometimes you want to draw attention to something in a line of text.
+                <p>Sometimes you want to <em>draw attention to something</em> in a line of text.</p>
 
-Sometimes you want to strongly emphasize something in the text.
+                <p>Sometimes you want to <strong>strongly emphasize something</strong> in the text.</p>
 
-Sometimes you want to do both.
+                <p>Sometimes you want to <em><strong>do both.</strong></em></p>
+            
+        </div>
 
-Empty Elements
+        <div class="wrapper section_3 subtitle">
+            <h3>Empty Elements</h3>
 
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
+            <p>Soft line breaks can't wrap anything. <br/>Neither can image tags, or hard lines.<br/>
+            Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.</p>
+        </div>
+        <hr/>
 
-Images 
+        <div class="wrapper section_4">
+            <div>
+                <h2 class="default">Images</h2>
+               
+                <p>Don't forget to use alt text on your images. It's important for accessibility.</p>
+            </div>
 
-Don't forget to use alt text on your images. It's important for accessibility.
+            <div class="carousel">
+                <div class="slides">
+                    <img src='mochi_images/mochi.jpg' width='100' alt='A smiling mochi surrounded in a bubble.'/> <img src='mochi_images/mochi.gif' width='100' alt='A bouncing, happy mochi.'/> <img src='mochi_images/mochi.png' width='100' alt='A smiling mochi.'/> <img src='mochi_images/mochi.svg' width='100' alt='A smiling mochi surrounded on each direction with segmented lines.'/>
+                </div>
+            </div>
+        </div>
+        <hr/>
 
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+        <div class="wrapper subtitle default">
+            <a href='https://github.com/lng75/INST377-Lab-Work'>Include a hyperlink here to your github repository for class.</a>
+
+            <p>If you want your repo to be private, be sure to invite Prof A as a "collaborator."</p>
+        </div>
+    </body>
+</html>
