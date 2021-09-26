@@ -26,7 +26,7 @@
   }
 
   .index {
-    margin-left: 20 px;
+    margin-left: 20px;
   }
 
   .header-container {
@@ -42,6 +42,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
   }
 
   .carousel {
@@ -64,26 +69,13 @@
     display: block;
   }
 
-  .carousel .carousel-action {
+  .carousel-action {
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    width: 42%;
-    top: 50%;
-    transform: translateY(-50%);
+    justify-content: space-around;
+    position: relative;
   }
 
-  .carousel .carousel-action
-  button#preview-button {
-    margin-left: 20px;
-  }
-
-  .carousel .carousel-action
-  button#next-button {
-    margin-right: 20px;
-  }
-
-  .carousel .carousel-action button {
+  .carousel-action button {
     border-radius: 10px;
     border: 0;
     font-weight: bold;
