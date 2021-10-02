@@ -12,6 +12,11 @@ body {
   background-color: darkslategray;
 }
 
+.title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Page Layout */
 .columns {
   display: flex;
@@ -24,4 +29,11 @@ body {
 .container {
   max-width: 960px;
   margin-top: 25px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
 }
